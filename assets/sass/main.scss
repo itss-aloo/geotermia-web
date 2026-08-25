@@ -1982,6 +1982,20 @@ button.primary:hover,
 	padding: 0 1.7em;
 }
 
+#contact .form-status {
+	font-size: 0.72em;
+	line-height: 1.6;
+	margin: 1.25em 0 0;
+}
+
+#contact .form-status.is-success {
+	color: #91c8ad;
+}
+
+#contact .form-status.is-error {
+	color: #efaaa2;
+}
+
 #contact > .inner > .split {
 	display: flex;
 	flex-direction: column;

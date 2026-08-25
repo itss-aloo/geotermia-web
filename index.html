@@ -415,7 +415,7 @@
 						<section>
 							<header class="major"><h2>Contacto</h2></header>
 							<p>Cuéntanos las características de tu vivienda y qué quieres conseguir. Revisaremos tu caso para valorar si el sistema puede ser una solución adecuada para tu proyecto.</p>
-							<form method="post" action="#" onsubmit="return false;">
+							<form id="contact-form" method="post" action="https://formspree.io/f/maewropb">
 								<div class="fields">
 									<div class="field half">
 										<label for="name">Nombre</label>
@@ -423,7 +423,7 @@
 									</div>
 									<div class="field half">
 										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
+										<input type="email" name="email" id="email" required />
 									</div>
 									<div class="field">
 										<label for="phone">Teléfono <span class="optional-field">(opcional)</span></label>
@@ -431,12 +431,13 @@
 									</div>
 									<div class="field">
 										<label for="message">Cuéntanos sobre tu vivienda</label>
-										<textarea name="message" id="message" rows="4" placeholder="Tipo de vivienda, ubicación aproximada, si es obra nueva o existente y cualquier información que consideres relevante."></textarea>
+										<textarea name="message" id="message" rows="4" placeholder="Tipo de vivienda, ubicación aproximada, si es obra nueva o existente y cualquier información que consideres relevante." required></textarea>
 									</div>
 								</div>
 								<ul class="actions">
 									<li><input type="submit" value="Solicitar valoración →" class="primary" /></li>
 								</ul>
+								<p class="form-status" role="status" aria-live="polite" hidden></p>
 							</form>
 						</section>
 						<section class="split">
@@ -444,7 +445,7 @@
 								<div class="contact-method">
 									<span class="icon solid alt fa-envelope"></span>
 									<h3>Correo electrónico</h3>
-									<span>Pendiente de definir</span>
+									<span>info@ventusdomus.com</span>
 								</div>
 							</section>
 							<section>
