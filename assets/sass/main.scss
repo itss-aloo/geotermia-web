@@ -85,9 +85,19 @@ body {
 }
 
 #banner {
+	background-image: url("../../images/hero-poster.jpg");
 	contain: paint;
 	isolation: isolate;
 	overflow: hidden;
+}
+
+#banner:after {
+	transition: none;
+	transition-delay: 0s;
+}
+
+body.is-preload #banner:after {
+	opacity: 0.85;
 }
 
 #banner .hero-video {
