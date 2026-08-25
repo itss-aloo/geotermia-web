@@ -2167,8 +2167,23 @@ button.primary:hover,
 		font-size: 1.5em;
 	}
 
+	#contact form .fields {
+		margin-left: -1.25em;
+		width: calc(100% + 1.25em);
+	}
+
+	#contact form .fields > .field,
+
 	#contact form .field.half {
 		width: 100%;
+	}
+
+	#contact input[type="text"],
+	#contact input[type="email"],
+	#contact input[type="tel"],
+	#contact textarea {
+		max-width: 100%;
+		min-width: 0;
 	}
 
 	#contact > .inner > .split {
