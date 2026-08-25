@@ -917,6 +917,16 @@ header.major > :first-child:after {
 	text-transform: uppercase;
 }
 
+#sistema header.system-section-title {
+	margin-bottom: 1.5em;
+}
+
+#sistema header.system-section-title h2 {
+	font-size: 1.75em;
+	font-weight: 600;
+	letter-spacing: 0.025em;
+}
+
 #sistema header {
 	margin-bottom: 1em;
 }
