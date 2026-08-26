@@ -4923,17 +4923,17 @@ header.major > :first-child:after {
 
 #ventajas > .inner {
 	max-width: 64em;
-	padding-bottom: 6.5em;
-	padding-top: 6.5em;
+	padding-bottom: 4.75em;
+	padding-top: 4.75em;
 }
 
 #ventajas header.major {
-	margin-bottom: 4.25em;
+	margin-bottom: 3em;
 }
 
 #ventajas .advantages-grid {
 	display: grid;
-	gap: 5em 5.5em;
+	gap: 3.25em 5.5em;
 	grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
@@ -4998,23 +4998,23 @@ header.major > :first-child:after {
 	}
 
 	#ventajas .advantages-grid {
-		gap: 4em 3.5em;
+		gap: 3em 3.5em;
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
 }
 
 @media screen and (max-width: 736px) {
 	#ventajas > .inner {
-		padding-bottom: 4em;
-		padding-top: 4.5em;
+		padding-bottom: 3.5em;
+		padding-top: 3.75em;
 	}
 
 	#ventajas header.major {
-		margin-bottom: 3.25em;
+		margin-bottom: 2.5em;
 	}
 
 	#ventajas .advantages-grid {
-		gap: 2.75em;
+		gap: 2.25em;
 		grid-template-columns: 1fr;
 	}
 
